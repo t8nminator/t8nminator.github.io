@@ -1,0 +1,34 @@
+---
+title: Toonminator
+layout: default
+---
+    <body class="no-sidebar">
+
+        {% include nav.html %}
+
+        <!-- Main -->
+            <div id="main-wrapper">
+                <div class="container">
+                    <!-- Content -->
+                        <article class="box post">
+                            <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic01.jpg" alt="" /></a>
+                            <header>
+                                <h2>GET IN TOUCH</h2>
+                                <p>Let's talk!</p>
+                            </header>
+                            
+                            <form action="https://formspree.io/{{site.email}}" method="POST">
+                                    
+                                <section>
+                                    <input class="form-control" type="text" name="name" placeholder="Name or Company">
+                                    <br>
+                                    <input class="form-control" type="email" name="_replyto" placeholder="E-mail">
+                                    <br>
+                                    <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message"></textarea>
+                                    <br>
+                                    <input class="btn btn-success" type="submit" value="Send">
+                                </section>
+                            </form>
+                        </article>
+                </div>
+            </div>

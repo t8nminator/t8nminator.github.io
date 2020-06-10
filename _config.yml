@@ -1,0 +1,12 @@
+name: Toonminator
+description: Toonminator official site
+meta_description: "Toonminator games out of reality"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.png'
+paginate: 10
+baseurl: 
+email: 'toonminator@gmail.com'
+
+# Plugins
+plugins: 
+  - jekyll-paginate

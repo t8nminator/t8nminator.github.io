@@ -1,7 +1,12 @@
 @charset 'UTF-8';
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
-
+@font-face {
+    font-family: Baloo;
+    src: url("../../assets/fonts/BalooThambi2-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /*
 	Dopetrope by HTML5 UP
 	html5up.net | @n33co
@@ -33,7 +38,7 @@
 
 	body,input,textarea,select
 	{
-		font-family: 'Source Sans Pro';
+		font-family: Baloo;
 		font-weight: 300;
 		color: #5d5d5d;
 	}

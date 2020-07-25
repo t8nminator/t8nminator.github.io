@@ -20,7 +20,6 @@
 	body
 	{
 		background: #252122;
-		background-image: url('images/bg02.png');
 	}
 
 		body.is-loading * {
@@ -319,7 +318,7 @@
 			cursor: pointer;
 			border: 0;
 			border-radius: 5px;
-			background: #fc225f;
+			background: #5740ac;
 			color: #fff !important;
 			font-weight: 700;
 			outline: 0;
@@ -704,12 +703,12 @@
 
 	#banner
 	{
-		background: #1b1c21 url('../images/pic01.jpg');
+		background: #1b1c21 url('../images/header.jpg');
 		background-position: center center;
-		background-size: auto 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
 		text-align: center;
-		height: 24em;
+		height: 32em;
 	}
 
 		#banner header
@@ -745,7 +744,7 @@
 	#main-wrapper
 	{
 		position: relative;
-		background: #f7f7f7 url('images/bg02.png');
+		background: #fff;
 	}
 
 		#main-wrapper:before
@@ -755,7 +754,6 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
@@ -767,7 +765,7 @@
 
 			#main-wrapper .major h2
 			{
-				background: #f7f7f7 url('images/bg02.png');
+				background: #ffffff;
 			}
 
 	#footer-wrapper
@@ -783,7 +781,6 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;

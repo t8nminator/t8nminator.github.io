@@ -160,7 +160,7 @@
 
 	#main-wrapper
 	{
-		padding: 4em 0 4em 0;
+		padding: 1em 0 4em 0;
 	}
 
 	#footer-wrapper
@@ -259,7 +259,7 @@
 		
 			#nav > ul > li.current > a
 			{
-				background: #fc225f;
+				background: #5740ac;
 				color: #fff !important;
 				font-weight: 700;
 			}

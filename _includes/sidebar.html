@@ -1,5 +1,12 @@
 <div class="4u">
 
-	
+	<!-- Sidebar -->
+	{% for post in site.posts offset: 0 limit: 2 %}
+		<section class="box">
+			<footer>
+				<a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Magna sed taciti</a>
+			</footer>
+		</section>
+	{% endfor %}
 
 </div>
